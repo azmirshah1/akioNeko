@@ -1,0 +1,113 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?0934bc0b54cff80ddfac0e793b4364f2") format("truetype"),
+url("./flaticon.woff?0934bc0b54cff80ddfac0e793b4364f2") format("woff"),
+url("./flaticon.woff2?0934bc0b54cff80ddfac0e793b4364f2") format("woff2"),
+url("./flaticon.eot?0934bc0b54cff80ddfac0e793b4364f2#iefix") format("embedded-opentype"),
+url("./flaticon.svg?0934bc0b54cff80ddfac0e793b4364f2#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "lock": "\f101",
+    "suitcase": "\f102",
+    "safe-box": "\f103",
+    "justice": "\f104",
+    "analytics": "\f105",
+    "bitcoin": "\f106",
+    "unlock": "\f107",
+    "ethereum": "\f108",
+    "team": "\f109",
+    "bank": "\f10a",
+    "ethereum-1": "\f10b",
+    "ethereum-2": "\f10c",
+    "credit-card": "\f10d",
+    "network": "\f10e",
+    "networking": "\f10f",
+    "social-media": "\f110",
+    "channel": "\f111",
+    "binance": "\f112",
+    "fox-frontal-head": "\f113",
+    "fox-head": "\f114",
+    "coin": "\f115",
+    "happy": "\f116",
+);
+
+.flaticon-lock:before {
+    content: map-get($flaticon-map, "lock");
+}
+.flaticon-suitcase:before {
+    content: map-get($flaticon-map, "suitcase");
+}
+.flaticon-safe-box:before {
+    content: map-get($flaticon-map, "safe-box");
+}
+.flaticon-justice:before {
+    content: map-get($flaticon-map, "justice");
+}
+.flaticon-analytics:before {
+    content: map-get($flaticon-map, "analytics");
+}
+.flaticon-bitcoin:before {
+    content: map-get($flaticon-map, "bitcoin");
+}
+.flaticon-unlock:before {
+    content: map-get($flaticon-map, "unlock");
+}
+.flaticon-ethereum:before {
+    content: map-get($flaticon-map, "ethereum");
+}
+.flaticon-team:before {
+    content: map-get($flaticon-map, "team");
+}
+.flaticon-bank:before {
+    content: map-get($flaticon-map, "bank");
+}
+.flaticon-ethereum-1:before {
+    content: map-get($flaticon-map, "ethereum-1");
+}
+.flaticon-ethereum-2:before {
+    content: map-get($flaticon-map, "ethereum-2");
+}
+.flaticon-credit-card:before {
+    content: map-get($flaticon-map, "credit-card");
+}
+.flaticon-network:before {
+    content: map-get($flaticon-map, "network");
+}
+.flaticon-networking:before {
+    content: map-get($flaticon-map, "networking");
+}
+.flaticon-social-media:before {
+    content: map-get($flaticon-map, "social-media");
+}
+.flaticon-channel:before {
+    content: map-get($flaticon-map, "channel");
+}
+.flaticon-binance:before {
+    content: map-get($flaticon-map, "binance");
+}
+.flaticon-fox-frontal-head:before {
+    content: map-get($flaticon-map, "fox-frontal-head");
+}
+.flaticon-fox-head:before {
+    content: map-get($flaticon-map, "fox-head");
+}
+.flaticon-coin:before {
+    content: map-get($flaticon-map, "coin");
+}
+.flaticon-happy:before {
+    content: map-get($flaticon-map, "happy");
+}
