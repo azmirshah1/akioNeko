@@ -59,6 +59,27 @@
 }
 
 
+/* Section 7: Partners */
+
+.ei-partner-section .ei-partner-content {
+    max-width: 1000px;
+}
+
+
+/* TODO: Partners Scroll image */
+
+.partner-img {
+    width: 200px;
+    height: auto;
+    padding: 1px;
+}
+
+
+/* .ei-partner-section .ei-partner-content .partner-slide-area {
+    width: 1000px;
+} */
+
+
 /* Word before button */
 
 .eight-banner-section .eight-banner-content h1 span {
@@ -119,5 +140,12 @@
     }
     .mobile-hide {
         display: none;
+    }
+    /* TODO: Repair Partners Scroll */
+    .partner-img img {
+        padding-right: 20px;
+        padding-right: 100px;
+        height: auto;
+        width: 200px !important;
     }
 }
