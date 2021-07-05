@@ -1,0 +1,35 @@
+.section-button {
+    border: none;
+}
+
+.section-button .btn-buy {
+    background-color: #FEDC90;
+    font-weight: 600;
+    display: inline-block;
+    color: #000000;
+    transition: all 0.3s ease-in-out 0s;
+    border-radius: 20px;
+    line-height: 35px;
+    width: 40%;
+}
+
+.section-button .btn-buy:hover {
+    background-color: #000000;
+    color: #FEDC90;
+}
+
+.section-button .btn-chart {
+    background-color: #0F1224;
+    font-weight: 600;
+    display: inline-block;
+    color: white;
+    transition: all 0.3s ease-in-out 0s;
+    border-radius: 20px;
+    line-height: 35px;
+    width: 40%;
+}
+
+.section-button .btn-chart:hover {
+    background-color: white;
+    color: #0F1224;
+}
