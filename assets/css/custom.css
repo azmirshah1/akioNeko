@@ -58,6 +58,14 @@
     }
 }
 
+.mobile-show {
+    display: none;
+}
+
+.form-height {
+    height: 200px;
+}
+
 
 /* Section 7: Partners */
 
@@ -85,6 +93,13 @@
 .eight-banner-section .eight-banner-content h1 span {
     color: black;
     font-size: 60px;
+}
+
+
+/* Section 8: Footer */
+
+.ei-footer-widget h4 span {
+    width: 400px;
 }
 
 
@@ -140,6 +155,22 @@
     }
     .mobile-hide {
         display: none;
+    }
+    .mobile-show {
+        display: block;
+        position: relative;
+    }
+    .mobile-show img {
+        margin-top: -250px;
+        margin-left: -10px;
+        transform: rotate(-15deg);
+    }
+    .form-height {
+        height: 50px;
+        margin-top: -50px;
+    }
+    .box-margin {
+        margin-top: -100px;
     }
     /* TODO: Repair Partners Scroll */
     .partner-img img {
