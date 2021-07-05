@@ -4,26 +4,37 @@
   	*/
 	
 	@font-face {
-	    font-family: "Flaticon2";
-	    src: url("../fav2/Flaticon.eot");
-	    src: url("../fav2/Flaticon.eot?#iefix") format("embedded-opentype"), url("../fav2/Flaticon.woff2") format("woff2"), url("../fav2/Flaticon.woff") format("woff"), url("../fav2/Flaticon.ttf") format("truetype"), url("../fav2/Flaticon.svg#Flaticon") format("svg");
+	    font-family: "flaticon";
+	    src: url("../fav2/");
+	    src: url("../fav2/flaticon.ttf?0934bc0b54cff80ddfac0e793b4364f2") format("truetype"), url("../fav2/flaticon.woff?0934bc0b54cff80ddfac0e793b4364f2") format("woff"), url("../fav2/flaticon.woff2?0934bc0b54cff80ddfac0e793b4364f2") format("woff2"), url("../fav2/flaticon.eot?0934bc0b54cff80ddfac0e793b4364f2#iefix") format("embedded-opentype"), url("../fav2/flaticon.svg?0934bc0b54cff80ddfac0e793b4364f2#flaticon") format("svg");
 	    font-weight: normal;
 	    font-style: normal;
 	}
 	
 	@media screen and (-webkit-min-device-pixel-ratio:0) {
 	    @font-face {
-	        font-family: "Flaticon2";
+	        font-family: "Flaticon";
 	        src: url("../fav2/Flaticon.svg#Flaticon") format("svg");
 	    }
 	}
-	
-	[class^="flaticon-"]:before,
+	/* [class^="flaticon-"]:before,
 	[class*=" flaticon-"]:before,
 	[class^="flaticon-"]:after,
 	[class*=" flaticon-"]:after {
-	    font-family: Flaticon2;
+	    font-family: Flaticon;
 	    font-style: normal;
+	} */
+	
+	i[class^="flaticon-"]:before,
+	i[class*=" flaticon-"]:before {
+	    font-family: flaticon !important;
+	    font-style: normal;
+	    font-weight: normal !important;
+	    font-variant: normal;
+	    text-transform: none;
+	    line-height: 1;
+	    -webkit-font-smoothing: antialiased;
+	    -moz-osx-font-smoothing: grayscale;
 	}
 	
 	.flaticon-lock:before {
