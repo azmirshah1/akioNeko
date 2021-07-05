@@ -94,7 +94,7 @@
         background-color: #FEDC90;
         font-weight: 600;
         display: inline-block;
-        color: #000000;
+        color: #000000 !important;
         transition: all 0.3s ease-in-out 0s;
         border-radius: 20px;
         line-height: 20px;
@@ -106,6 +106,16 @@
         justify-content: center;
         background-color: #29f5eb;
         transition: 0.3s all ease-in-out; */
+    }
+    .btn-buy-now:hover {
+        background-color: #000000;
+        font-weight: 600;
+        display: inline-block;
+        color: #FEDC90 !important;
+        transition: all 0.3s ease-in-out 0s;
+        border-radius: 20px;
+        line-height: 20px;
+        width: 100%;
     }
     .mobile-hide {
         display: none;
