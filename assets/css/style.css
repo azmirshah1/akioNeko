@@ -163,7 +163,7 @@ div#preloader {
 
 .ei-preloader {
     background-color: #fff;
-    background: #f1f2f3 url("../img/pre.svg") no-repeat center center;
+    background: #f1f2f3 url("../img/meta/loading.gif") no-repeat center center;
 }
 
 .container {
@@ -13671,7 +13671,7 @@ div#dia-preloader {
     height: 100%;
     overflow: visible;
     background-color: #f1f2f3;
-    background: #f1f2f3 url("../img/pre.svg") no-repeat center center;
+    background: #f1f2f3 url("../img/meta/loading.gif") no-repeat center center;
 }
 
 .decoration-wrapper {
