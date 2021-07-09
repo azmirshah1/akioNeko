@@ -103,19 +103,19 @@ a,
     background-color: white;
 }
 
-.site-reddit:active,
-.site-reddit:focus,
+.site-twitter:active,
+.site-twitter:focus,
 .contact-box .form-group:after,
 .style-1 .dez-social-icon li a,
-.site-reddit.gradient {
-    background-color: #FF5700;
+.site-twitter.gradient {
+    background-color: #1DA1F2;
     color: white;
     font-weight: semi-bold;
     background-size: 200%;
 }
 
-.site-reddit:hover {
-    color: #FF5700;
+.site-twitter:hover {
+    color: #1DA1F2;
     background-color: white;
 }
 
