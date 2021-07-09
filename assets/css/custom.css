@@ -1,5 +1,9 @@
 /* Section 1 */
 
+.mtm {
+    margin-top: 15px;
+}
+
 
 /* Button for pancakeswap and dextools */
 
@@ -115,6 +119,9 @@
 /* Screen 420px */
 
 @media screen and (max-width: 420px) {
+    .mtm {
+        margin-top: 0px;
+    }
     .section-button .btn-buy {
         width: 100%;
     }
