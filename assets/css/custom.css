@@ -1,189 +1,220 @@
-/* Section 1 */
-
-.mtm {
-    margin-top: 15px;
-}
-
-
-/* Button for pancakeswap and dextools */
-
-.section-button .btn-buy {
-    background-color: #FEDC90;
-    font-weight: 600;
-    display: inline-block;
-    color: #000000;
-    transition: all 0.3s ease-in-out 0s;
-    border-radius: 20px;
-    line-height: 35px;
-    width: 40%;
-}
-
-.section-button .btn-buy:hover {
-    background-color: #000000;
-    color: #FEDC90;
-}
-
-.section-button .btn-chart {
-    background-color: #0F1224;
-    font-weight: 600;
-    display: inline-block;
-    color: white;
-    transition: all 0.3s ease-in-out 0s;
-    border-radius: 20px;
-    line-height: 35px;
-    width: 40%;
-}
-
-.section-button .btn-chart:hover {
-    background-color: white;
-    color: #0F1224;
-}
-
-
-/* Baby Neko image holding BSC Coin */
-
-.floating {
-    animation-name: floating;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    object-fit: scale-down;
-}
-
-@keyframes floating {
-    0% {
-        transform: translate(0, 0px);
-    }
-    50% {
-        transform: translate(0, 15px);
-    }
-    100% {
-        transform: translate(0, -0px);
-    }
-}
-
-.mobile-show {
-    display: none;
-}
-
-.form-height {
-    height: 200px;
-}
-
-
-/* Section 7: Partners */
-
-.ei-partner-section .ei-partner-content {
-    max-width: 1000px;
-}
-
-
-/* TODO: Partners Scroll image */
-
-.partner-img {
-    width: 200px;
-    height: auto;
-    padding: 1px;
-}
-
-
-/* .ei-partner-section .ei-partner-content .partner-slide-area {
-    width: 1000px;
-} */
-
-
-/* Word before button */
-
-.eight-banner-section .eight-banner-content h1 span {
-    color: black;
-    font-size: 60px;
-}
-
-
-/* Section 8: Footer */
-
-.ei-footer-widget h4 span {
-    width: 400px;
-}
-
-
-/* Only for Ipad */
-
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
-    .mobile-hide {
-        display: none;
-    }
-}
-
-
-/* Screen 420px */
-
-@media screen and (max-width: 420px) {
+    /* Section 1 */
+    
     .mtm {
-        margin-top: 0px;
+        margin-top: 15px;
     }
+    /* Button for pancakeswap and dextools */
+    
     .section-button .btn-buy {
-        width: 100%;
-    }
-    .section-button .btn-chart {
-        margin-top: 10px;
-        width: 100%;
-    }
-    .eight-banner-section .eight-banner-content h1 span {
-        font-size: 25px;
-        padding-top: 20px;
-    }
-    .btn-buy-now {
         background-color: #FEDC90;
         font-weight: 600;
         display: inline-block;
-        color: #000000 !important;
+        color: #000000;
         transition: all 0.3s ease-in-out 0s;
         border-radius: 20px;
-        line-height: 20px;
-        width: 100%;
-        /* height: 40px;
+        line-height: 35px;
+        width: 40%;
+    }
+    
+    .section-button .btn-buy:hover {
+        background-color: #000000;
+        color: #FEDC90;
+    }
+    
+    .section-button .btn-chart {
+        background-color: #0F1224;
+        font-weight: 600;
+        display: inline-block;
+        color: white;
+        transition: all 0.3s ease-in-out 0s;
+        border-radius: 20px;
+        line-height: 35px;
+        width: 40%;
+    }
+    
+    .section-button .btn-chart:hover {
+        background-color: white;
+        color: #0F1224;
+    }
+    /* Baby Neko image holding BSC Coin */
+    
+    .floating {
+        animation-name: floating;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        object-fit: scale-down;
+    }
+    
+    @keyframes floating {
+        0% {
+            transform: translate(0, 0px);
+        }
+        50% {
+            transform: translate(0, 15px);
+        }
+        100% {
+            transform: translate(0, -0px);
+        }
+    }
+    
+    .mobile-show {
+        display: none;
+    }
+    
+    .form-height {
+        height: 250px;
+    }
+    
+    .ei-newslatter-section .ei-newslatter-mockup {
+        position: absolute;
+        top: -30%;
+        right: 15%;
+        left: 15%;
+    }
+    
+    .ei-newslatter-section .ei-newslatter-mockup img {
+        max-width: 100%;
+        height: auto;
+    }
+    /* Section 3: Why pick us */
+    
+    .ei-service-slide-mbl {
+        position: absolute;
+        right: -310px;
+        top: -75px;
+        width: 750px;
+        height: 505px;
+        padding: 17px 19px;
+    }
+    
+    .eight-service-section .eight-service-text h2 {
+        margin-top: -140px;
+        font-size: 40px;
+        padding: 0px;
+        text-align: center;
+    }
+    /* Section 7: Partners */
+    
+    .ei-partner-section .ei-partner-content {
+        max-width: 1000px;
+    }
+    /* TODO: Partners Scroll image */
+    
+    .partner-img {
+        width: 200px;
+        height: auto;
+        padding: 1px;
+    }
+    /* .ei-partner-section .ei-partner-content .partner-slide-area {
+    width: 1000px;
+} */
+    /* Word before button */
+    
+    .eight-banner-section .eight-banner-content h1 span {
+        color: black;
+        font-size: 60px;
+    }
+    /* Section 8: Footer */
+    
+    .ei-footer-widget h4 span {
+        width: 400px;
+    }
+    /* Only for Ipad */
+    
+    @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+        .mobile-hide {
+            display: none;
+        }
+    }
+    /* Screen 420px */
+    
+    @media screen and (max-width: 420px) {
+        .mtm {
+            margin-top: 0px;
+        }
+        .section-button .btn-buy {
+            width: 100%;
+        }
+        .section-button .btn-chart {
+            margin-top: 10px;
+            width: 100%;
+        }
+        .eight-banner-section .eight-banner-content h1 span {
+            font-size: 22px;
+            padding-top: 20px;
+        }
+        .btn-buy-now {
+            background-color: #FEDC90;
+            font-weight: 600;
+            display: inline-block;
+            color: #000000 !important;
+            transition: all 0.3s ease-in-out 0s;
+            border-radius: 20px;
+            line-height: 20px;
+            width: 100%;
+            /* height: 40px;
         width: 110px;
         line-height: 40px;
         border-radius: 20px;
         justify-content: center;
         background-color: #29f5eb;
         transition: 0.3s all ease-in-out; */
+        }
+        .btn-buy-now:hover {
+            background-color: #000000;
+            font-weight: 600;
+            display: inline-block;
+            color: #FEDC90 !important;
+            transition: all 0.3s ease-in-out 0s;
+            border-radius: 20px;
+            line-height: 20px;
+            width: 100%;
+        }
+        .mobile-hide {
+            display: none;
+        }
+        .mobile-show {
+            display: block;
+            position: relative;
+        }
+        .mobile-show img {
+            margin-top: -170px;
+            margin-left: -3px;
+            /* transform: rotate(-15deg); */
+        }
+        .form-height {
+            height: 50px;
+            margin-top: -50px;
+        }
+        .box-margin {
+            margin-top: -100px;
+        }
+        /* TODO: Repair Partners Scroll */
+        .partner-img img {
+            padding-right: 20px;
+            padding-right: 100px;
+            height: auto;
+            width: 200px !important;
+        }
+        .ei-service-slide-mbl {
+            position: relative;
+            right: 0;
+            height: 70%;
+            margin-bottom: -100px;
+        }
+        .ei-service-slide-mbl img {
+            height: 200px;
+        }
+        /* .ei-service-slide-mbl {
+            float: left;
+            margin-left: -50px;
+            font-size: 30px;
+            padding: 10px;
+            margin-top: 50px;
+        } */
+        .eight-service-section .eight-service-text h2 {
+            font-size: 30px;
+            margin-top: 50px;
+        }
     }
-    .btn-buy-now:hover {
-        background-color: #000000;
-        font-weight: 600;
-        display: inline-block;
-        color: #FEDC90 !important;
-        transition: all 0.3s ease-in-out 0s;
-        border-radius: 20px;
-        line-height: 20px;
-        width: 100%;
-    }
-    .mobile-hide {
-        display: none;
-    }
-    .mobile-show {
-        display: block;
-        position: relative;
-    }
-    .mobile-show img {
-        margin-top: -250px;
-        margin-left: -10px;
-        transform: rotate(-15deg);
-    }
-    .form-height {
-        height: 50px;
-        margin-top: -50px;
-    }
-    .box-margin {
-        margin-top: -100px;
-    }
-    /* TODO: Repair Partners Scroll */
-    .partner-img img {
-        padding-right: 20px;
-        padding-right: 100px;
-        height: auto;
-        width: 200px !important;
-    }
-}
