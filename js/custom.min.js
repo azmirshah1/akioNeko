@@ -1,6 +1,3 @@
-/**
-Core script to handle the entire theme and core functions
-**/
 var Frost = function() {
     /* Search Bar ============ */
     var screenWidth = $(window).width();
