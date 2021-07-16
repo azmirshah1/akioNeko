@@ -68,7 +68,7 @@
     
     .ei-newslatter-section .ei-newslatter-mockup {
         position: absolute;
-        top: -30%;
+        top: -10%;
         right: 15%;
         left: 15%;
     }
@@ -125,6 +125,12 @@
     @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
         .mobile-hide {
             display: none;
+        }
+    }
+
+    @media screen and (max-width: 1440px) {
+        .ei-newslatter-section .ei-newslatter-mockup {
+            top: -145%;
         }
     }
     /* Screen 420px */
