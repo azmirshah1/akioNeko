@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?0934bc0b54cff80ddfac0e793b4364f2") format("truetype"),
+url("./flaticon.woff?0934bc0b54cff80ddfac0e793b4364f2") format("woff"),
+url("./flaticon.woff2?0934bc0b54cff80ddfac0e793b4364f2") format("woff2"),
+url("./flaticon.eot?0934bc0b54cff80ddfac0e793b4364f2#iefix") format("embedded-opentype"),
+url("./flaticon.svg?0934bc0b54cff80ddfac0e793b4364f2#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-lock:before {
+    content: "\f101";
+}
+.flaticon-suitcase:before {
+    content: "\f102";
+}
+.flaticon-safe-box:before {
+    content: "\f103";
+}
+.flaticon-justice:before {
+    content: "\f104";
+}
+.flaticon-analytics:before {
+    content: "\f105";
+}
+.flaticon-bitcoin:before {
+    content: "\f106";
+}
+.flaticon-unlock:before {
+    content: "\f107";
+}
+.flaticon-ethereum:before {
+    content: "\f108";
+}
+.flaticon-team:before {
+    content: "\f109";
+}
+.flaticon-bank:before {
+    content: "\f10a";
+}
+.flaticon-ethereum-1:before {
+    content: "\f10b";
+}
+.flaticon-ethereum-2:before {
+    content: "\f10c";
+}
+.flaticon-credit-card:before {
+    content: "\f10d";
+}
+.flaticon-network:before {
+    content: "\f10e";
+}
+.flaticon-networking:before {
+    content: "\f10f";
+}
+.flaticon-social-media:before {
+    content: "\f110";
+}
+.flaticon-channel:before {
+    content: "\f111";
+}
+.flaticon-binance:before {
+    content: "\f112";
+}
+.flaticon-fox-frontal-head:before {
+    content: "\f113";
+}
+.flaticon-fox-head:before {
+    content: "\f114";
+}
+.flaticon-coin:before {
+    content: "\f115";
+}
+.flaticon-happy:before {
+    content: "\f116";
+}
