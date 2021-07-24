@@ -34,3 +34,4 @@ Contract information for Akio Neko can be accessed in the following repositories
 ---
 
 You can visit our website at [akioneko.com](https://akioneko.com/).
+
